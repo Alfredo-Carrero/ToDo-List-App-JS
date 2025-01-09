@@ -1,0 +1,92 @@
+/*Google Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+/*Estilos*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fcfcfc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  font-family: "Josefin Sans", serif;
+}
+
+#mostrar-lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#contenedor-agregar {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 20px;
+}
+
+ul#lista-tareas li {
+  display: flex;
+  gap: 10px; /* Separación entre los iconos */
+  align-items: center;
+}
+
+.tarea-completada {
+  text-decoration: line-through;
+}
+
+textarea {
+  width: 400px;
+  border-radius: 20px;
+  margin-top: 50px;
+  padding: 10px;
+  resize: none;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee;
+  border: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+button {
+  list-style: none;
+  border-radius: 20px;
+  margin-top: 50px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #00007c;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #6464de;
+  color: white;
+  font-weight: bold;
+}
+
+.fa-trash-can {
+  color: red;
+}
+
+.fa-circle-check {
+  color: green;
+}
+
+i:hover {
+  cursor: pointer;
+}
